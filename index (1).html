@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Namitha TJ — ECE Engineer / Creative Builder</title>
+<meta name="description" content="Portfolio of Namitha TJ, an Electronics & Communication Engineering student building in embedded systems, PCB design, AI and robotics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#home" aria-label="NTJ home">NTJ<span>.</span></a>
+  <button class="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+  <nav id="menu" aria-label="Primary">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a>
+    <a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+  <canvas id="grid" aria-hidden="true"></canvas>
+  <div class="hero-text">
+    <p class="label">ECE ENGINEER / CREATIVE BUILDER</p>
+    <h1>NAMITHA<br>TJ</h1>
+    <p class="headline">Building ideas into reality.</p>
+    <p class="lead">I'm an Electronics &amp; Communication Engineering student interested in electronics, embedded systems, PCB design, programming, AI, robotics and innovative technology. I learn by building, breaking and rebuilding.</p>
+    <p class="term" aria-hidden="true"><span id="typed"></span><i></i></p>
+    <div class="btns">
+      <a class="btn primary" href="#projects">EXPLORE PROJECTS</a>
+      <a class="btn" href="#contact">LET'S CONNECT</a>
+    </div>
+  </div>
+  <figure class="board" aria-label="Illustration of a circuit board">
+    <svg id="pcb" viewBox="0 0 520 560" role="img" aria-hidden="true">
+      <g class="traces" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M260 280 H150 L110 240 V90 H40"/>
+        <path d="M260 290 H170 L130 330 V470 H60"/>
+        <path d="M280 260 V160 L320 120 H480"/>
+        <path d="M300 280 H400 L440 320 V400 H500"/>
+        <path d="M270 310 V420 L310 460 H420 V530"/>
+        <path d="M240 260 V200 L200 160 V40"/>
+        <path d="M110 160 H60 V300 H20"/>
+        <path d="M400 280 V210 H480"/>
+      </g>
+      <g class="pulses" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M260 280 H150 L110 240 V90 H40"/>
+        <path d="M280 260 V160 L320 120 H480"/>
+        <path d="M270 310 V420 L310 460 H420 V530"/>
+        <path d="M300 280 H400 L440 320 V400 H500"/>
+        <path d="M260 290 H170 L130 330 V470 H60"/>
+      </g>
+      <g class="chip">
+        <rect x="230" y="250" width="90" height="70" rx="4"/>
+        <circle cx="244" cy="264" r="3"/>
+        <text x="275" y="290" text-anchor="middle">NTJ-01</text>
+        <text x="275" y="306" text-anchor="middle" class="sm">ECE / v1.0</text>
+      </g>
+      <g class="nodes">
+        <circle cx="40" cy="90" r="6"/><circle cx="60" cy="470" r="6"/><circle cx="480" cy="120" r="6"/>
+        <circle cx="500" cy="400" r="6"/><circle cx="420" cy="530" r="6"/><circle cx="200" cy="40" r="6"/>
+        <circle cx="20" cy="300" r="6"/><circle cx="480" cy="210" r="6"/>
+      </g>
+      <g class="dim" fill="none"><path d="M40 520 H200 M40 514 V526 M200 514 V526"/><text x="120" y="512" text-anchor="middle">16.00 mm</text></g>
+    </svg>
+    <figcaption>FIG. 01 — NODE MAP, REV A</figcaption>
+  </figure>
+  <p class="scroll" aria-hidden="true">SCROLL</p>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="track"><span>Digital Electronics</span><span>PCB Design</span><span>Embedded Systems</span><span>Python</span><span>Robotics</span><span>Raspberry Pi</span><span>Haptics</span><span>EasyEDA</span><span>Fusion 360</span><span>Sensors</span><span>AI</span><span>Circuit Simulation</span><span>Digital Electronics</span><span>PCB Design</span><span>Embedded Systems</span><span>Python</span><span>Robotics</span><span>Raspberry Pi</span><span>Haptics</span><span>EasyEDA</span><span>Fusion 360</span><span>Sensors</span><span>AI</span><span>Circuit Simulation</span></div></div>
+
+<section class="about" id="about">
+  <p class="label">01 / ABOUT</p>
+  <div class="about-grid">
+    <h2 class="big">I learn by building, testing and fixing things until they work.</h2>
+    <div class="about-copy">
+      <p>I'm an ECE student who treats every circuit as a question and every prototype as the answer so far. From a breadboard idea to a routed PCB, I like seeing how the physical and the digital meet.</p>
+      <p>My work moves between hardware and code: sensors that read the world, microcontrollers that decide, and interfaces that make it useful for real people.</p>
+    </div>
+  </div>
+  <ul class="interests" aria-label="Areas of interest">
+    <li data-n="A"><span>Electronics</span></li><li data-n="B"><span>Digital Systems</span></li>
+    <li data-n="C"><span>Embedded Systems</span></li><li data-n="D"><span>PCB Design</span></li>
+    <li data-n="E"><span>Programming</span></li><li data-n="F"><span>AI &amp; Robotics</span></li>
+    <li data-n="G"><span>Product Design</span></li>
+  </ul>
+</section>
+
+<section class="projects" id="projects">
+  <p class="label">02 / PROJECTS</p>
+  <h2 class="big">Selected builds</h2>
+  <div class="plist">
+    <article class="proj" tabindex="0">
+      <span class="pn">P1</span>
+      <div class="pbody">
+        <h3>Digital IC Voting System</h3>
+        <p>A voting machine built from digital ICs. It counts votes per candidate, runs on a timer-controlled voting window and shows results on a 7-segment display, all on a custom PCB.</p>
+        <ul class="tags"><li>Digital ICs</li><li>7-Segment</li><li>Timer</li><li>PCB Design</li></ul>
+      </div>
+      <a class="view" href="#" aria-label="View Digital IC Voting System project">View Project</a>
+    </article>
+    <article class="proj" tabindex="0">
+      <span class="pn">P2</span>
+      <div class="pbody">
+        <h3>3D Tactile Visualisation System</h3>
+        <p>Assistive technology that turns spatial surroundings into touch. Haptic feedback helps visually impaired users perceive the layout of their environment.</p>
+        <ul class="tags"><li>Assistive Tech</li><li>Haptics</li><li>Spatial Sensing</li></ul>
+      </div>
+      <a class="view" href="#" aria-label="View 3D Tactile Visualisation System project">View Project</a>
+    </article>
+    <article class="proj" tabindex="0">
+      <span class="pn">P3</span>
+      <div class="pbody">
+        <h3>Rain Detector System</h3>
+        <p>A sensor-based circuit that detects rainfall and signals it instantly, implemented and tested as a working circuit.</p>
+        <ul class="tags"><li>Sensors</li><li>Circuit Design</li><li>Analog</li></ul>
+      </div>
+      <a class="view" href="#" aria-label="View Rain Detector System project">View Project</a>
+    </article>
+    <article class="proj" tabindex="0">
+      <span class="pn">P4</span>
+      <div class="pbody">
+        <h3>Vehicular Emergency Robot</h3>
+        <p>A robot that sees and responds. A camera and sensors feed a Raspberry Pi, which drives servos to react in emergency situations.</p>
+        <ul class="tags"><li>Robotics</li><li>Computer Vision</li><li>Raspberry Pi</li><li>Servo Control</li></ul>
+      </div>
+      <a class="view" href="#" aria-label="View Vehicular Emergency Robot project">View Project</a>
+    </article>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <p class="label">03 / SKILLS</p>
+  <h2 class="big">System map</h2>
+  <p class="hint">Hover or focus a node to trace its connections.</p>
+  <div class="map" id="map" role="group" aria-label="Skills network"></div>
+</section>
+
+<section class="exp" id="experience">
+  <p class="label">04 / EXPERIENCE</p>
+  <h2 class="big">Build log</h2>
+  <ol class="timeline">
+    <li><span class="stamp">T+3</span><div><h3>Internship / Project Experience</h3><p>Add your internship title, organisation and what you built here.</p></div></li>
+    <li><span class="stamp">T+2</span><div><h3>Technical Workshops</h3><p>Hands-on workshops in electronics, PCB design and embedded systems. Edit with your workshop names.</p></div></li>
+    <li><span class="stamp">T+1</span><div><h3>Academic Projects</h3><p>Voting system, rain detector, tactile visualisation and emergency robot, built through coursework and self-driven work.</p></div></li>
+    <li><span class="stamp">T+0</span><div><h3>B.Tech, Electronics &amp; Communication</h3><p>Add your college and years here.</p></div></li>
+  </ol>
+
+  <p class="label sub">ACTIVITIES</p>
+  <div class="acts">
+    <button class="act" aria-expanded="false"><b>NSS</b><span>Community service and volunteering.</span></button>
+    <button class="act" aria-expanded="false"><b>IEEE</b><span>Student branch member and technical events.</span></button>
+    <button class="act" aria-expanded="false"><b>AECE</b><span>Association of ECE students.</span></button>
+    <button class="act" aria-expanded="false"><b>IEDC</b><span>Innovation and entrepreneurship development.</span></button>
+    <button class="act" aria-expanded="false"><b>Workshops</b><span>Technical training and skill-building.</span></button>
+    <button class="act" aria-expanded="false"><b>Hackathons</b><span>Building under time pressure.</span></button>
+    <button class="act" aria-expanded="false"><b>Events</b><span>Engineering fests and technical talks.</span></button>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <p class="label">05 / CONTACT</p>
+  <h2 class="huge">Have an idea?<br>Let's build it.</h2>
+  <div class="links">
+    <a href="mailto:your.email@example.com"><span>Email</span>your.email@example.com</a>
+    <a href="https://github.com/your-username" target="_blank" rel="noopener"><span>GitHub</span>github.com/your-username</a>
+    <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener"><span>LinkedIn</span>linkedin.com/in/your-username</a>
+  </div>
+</section>
+</main>
+
+<footer><span>NTJ. &copy; <span id="yr"></span> Namitha TJ</span><span>Designed &amp; built by hand</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
